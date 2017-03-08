@@ -8,7 +8,6 @@ Essa iniciativa não é uma novidade, mas baseia-se em outras experiências já 
 
 ### Slides da Nova Arquitetura
 
-Aqui temos o primeiro draft da nossa arquitetura back-end e dos componentes utilizados
-
-[1]: http://slides.com/rodrigomelgar/arquitetura-de-referencia "Apresentação Nova Arquiteura"
-
+>Aqui temos o primeiro draft da nossa arquitetura back-end e dos componentes utilizados
+>
+>[Apresentação Nova Arquiteura](http://slides.com/rodrigomelgar/arquitetura-de-referencia)
