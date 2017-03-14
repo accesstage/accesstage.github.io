@@ -1,3 +1,15 @@
+# Setup
+name:         Tech Blog Accesstage
+tagline:      os desafios de uma arquitetura open-source no mundo corporativo
+baseurl:      ""
+
 title: [Tech Blog Accesstage]
 description: [os desafios de uma arquitetura open-source no mundo corporativo]
-theme: jekyll-theme-architect
+
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
