@@ -8,8 +8,8 @@ author: leonardotonin
 ### Por que?
 O Git já não é mais uma grande novidade. Está amplamente difundido no mercado e suas vantagens (como feature branching, local repository, staging area ...) são discutidas e comparadas suficientemente na internet.
 
-Por outro lado é interessante analisar os motivos que nos levaram a escolher a migração do SNV para o Git.
-Nosso cenário é composto por uma quantidade grande de projetos hora feitos internamente, hora desenvolvidos com parceiros. De modo que após muitos anos e muitos usuários no SVN, encontramos projetos com diversas estruturas de branches falhas, organizações variadas de diretórios além de projetos poluídos (com PDFs e imagens de definições do projeto).
+Por outro lado é interessante analisar os motivos que nos levaram a escolher a migração do SVN para o Git.
+Nosso cenário é composto por uma quantidade grande de projetos, ora feitos internamente, ora desenvolvidos com parceiros. De modo que após muitos anos e muitos usuários no SVN, encontramos projetos com diversas estruturas de branches falhas, organizações variadas de diretórios além de projetos poluídos (com PDFs e imagens de definições do projeto).
 
 Sentimos a necessidade de parar e organizar a casa. 
 
@@ -29,21 +29,21 @@ Desse modo é possível controlar o que é commitado na master e prevenir que c�
 * A possibilidade de usarmos os README.md 
 Em cada projeto podemos detalhar para novos colaboradores o que acharmos importante sobre o projeto. Podemos explicar como criar o ambiente de desenvolvimento, o objetivo do projeto, o básico da arquitetura, bancos de dados usados, usuários de teste e muito mais. Eliminando a princípio a necessidade de outras ferramentas como Wikis ou [Confluence](https://www.atlassian.com/software/confluence).
 
-Existem muitas outras funcionalidades e plugins do GitLab que nos atraem a realizar a migração. Essas vantagens apresentadas são algumas mais voltadas ao nosso dia a dia de desenvolvimento do que a tecnologia da ferramenta em si. É bem possível realizar essas alterações em outros controladores de versão (com mais, ou menos dificuldades). 
+Existem muitas outras funcionalidades e plugins do GitLab que nos atraem a realizar a migração. Essas vantagens apresentadas são algumas mais voltadas ao nosso dia a dia de desenvolvimento do que a tecnologia da ferramenta em si. É bem possível realizar essas alterações em outros controladores de versão (com mais ou menos dificuldades). 
 
-O fato é que o git parece proporcionar tudo isso de forma rápida e natural. Nos permitindo ainda a implementação de padrões de uso da ferramenta, como o git-flow por exemplo.
+O fato é que o git parece proporcionar tudo isso de forma rápida e natural. Permitindo-nos ainda a implementação de padrões de uso da ferramenta, como o git-flow por exemplo.
 
 ### Dificuldades
 
 Vale ainda ressaltar que nem tudo são flores no processo de migração.
 
-Nossa primeira idéia foi usar alguma ferramenta ou método de migração automatizado. Nesse intuito tentamos usar o tutorial da própria Atlassian (https://www.atlassian.com/). O qual eu recomendo a todos pela simplicidade e detalhamento dos passos:
+Nossa primeira ideia foi usar alguma ferramenta ou método de migração automatizado. Nesse intuito tentamos usar o tutorial da própria Atlassian (https://www.atlassian.com/). O qual eu recomendo a todos pela simplicidade e detalhamento dos passos:
 
 https://www.atlassian.com/git/tutorials/migrating-overview
 
-Contudo no nosso caso, onde os repositórios SVN eram muito grandes e bastante despadronizados o método não se encaixou.
+Contudo no nosso caso, onde os repositórios SVN eram muito grandes e bastante despadronizados, o método não se encaixou.
 
-Ficou claro para a equipe que a migração deveria ser feita de modo manual e gradual. Onde para cada projeto que fôssemos dar manutenção, precisaríamos reorganiza-los e subir no git individualmente como um novo projeto.
+Ficou claro para a equipe que a migração deveria ser feita de modo manual e gradual. Onde para cada projeto que fôssemos dar manutenção, precisaríamos reorganizá-los e subir no git individualmente como um novo projeto.
 
 Acredito que nenhum método automático garante mais qualidade do que esse no que tange a estrutura do repositório. Mas é preciso tomar alguns cuidados a seguir por esse caminho:
 
