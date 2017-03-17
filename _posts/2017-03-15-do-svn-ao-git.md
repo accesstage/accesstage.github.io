@@ -55,4 +55,3 @@ Até o momento desse post eu conto 14 projetos já migrados desde que começamos
 Um outro aspecto notável em uma mudança como essas é a capacitação do time. Nem todos tem uma boa experiência com a ferramenta. Pretendemos organizar um treinamento interno e acreditamos que com o tempo e melhor conhecimento da ferramenta por parte de todos, o número de projetos migrados por mês cresça. 
 
 O passo a seguir é tentar tirar proveito da integração do Git com o [Maven-SCM](https://maven.apache.org/scm/). As dificuldades e benefícios nessa missão vocês conferem em um próximo post.
-<script type="text/javascript" src="_scripts/disqus.js"></script>

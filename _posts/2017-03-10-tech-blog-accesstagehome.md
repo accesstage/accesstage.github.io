@@ -16,4 +16,3 @@ Essa iniciativa não é uma novidade, mas baseia-se em outras experiências já 
 >Aqui temos o primeiro draft da nossa arquitetura back-end e dos componentes utilizados
 >
 >[Apresentação Nova Arquiteura](http://slides.com/rodrigomelgar/arquitetura-de-referencia)
-<script type="text/javascript" src="_scripts/disqus.js"></script>
