@@ -15,12 +15,22 @@ title: Tech Blog Accesstage
 		{% assign author = site.data.authors[post.author] %}
 		<!-- Output author details if some exist. -->
 		{% if author %}
+		<div id="disqus_thread"></div>
+			<script>
+			(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = 'https://engenharia-accesstage-com-br.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+			</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 			<hr style="border-width: 5px; margin-top: 60px;">
 			<h3 style="margin-top: 30px;">Sobre o autor</h3>
 			<div style="padding-top: 20px;">
 				<div class="github-card" data-github="{{ author.gitprofile }}" data-width="400" data-height="250" data-theme="default"></div>
 				<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-				<script type="text/javascript" src="_scripts/disqus.js"></script>
 			</div>
 		{% endif %}
 
