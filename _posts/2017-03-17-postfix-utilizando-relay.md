@@ -35,4 +35,3 @@ inet_interfaces = 127.0.0.1
 ![postfix](https://www.stewright.me/wp-content/uploads/2012/09/Postfix_logo.png)
 
 see you on the other side
-<script type="text/javascript" src=_scripts/disqus.js"></script>
