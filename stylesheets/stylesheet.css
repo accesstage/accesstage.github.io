@@ -20,6 +20,26 @@ body {
   margin: 0;
 }
 
+
+.fadedsection {
+  
+  background: url("bottom-fade.png") bottom center no-repeat;
+}
+
+.resume {
+    position: relative; 
+    height: 25em;
+    overflow-y:hidden;
+    padding-left: 2em;
+    margin-right: 2em;
+} 
+
+.readmore {
+   text-align: center;
+   margin-top: 1cm;
+   margin-bottom: : 2cm;
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 
