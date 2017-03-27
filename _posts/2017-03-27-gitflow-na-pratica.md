@@ -11,6 +11,6 @@ desenho do workflow para git
 ***
 
 
-![gitflow](images/git_flow.jpg)
+![gitflow](http://engenharia.accesstage.com.br/images/git_flow.jpg)
 
 see you on the other side
