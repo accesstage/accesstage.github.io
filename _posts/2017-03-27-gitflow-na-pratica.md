@@ -11,6 +11,6 @@ desenho do workflow para git
 ***
 
 
-![postfix](../images/git_flow.jpg)
+![gitflow](images/git_flow.jpg)
 
 see you on the other side
