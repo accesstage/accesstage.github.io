@@ -66,9 +66,10 @@ sh nexus
 sh nexus start
 (admin/admin123) - user / pass
 
-![nexus](http://engenharia.accesstage.com.br/images/nexus.png)
 
 ```
+
+![nexus](http://engenharia.accesstage.com.br/images/nexus.png)
 ### Jenkins
 
 ```bash
@@ -120,7 +121,7 @@ Estou utilizando o CentOS 7
 
 
 ```
-![jenkins](http://engenharia.accesstage.com.br/images/jenkins_image.png)
+![jenkins](http://engenharia.accesstage.com.br/images/apache.png)
 
 qualquer duvida deixa ae , que respondo assim que possivel.
 
