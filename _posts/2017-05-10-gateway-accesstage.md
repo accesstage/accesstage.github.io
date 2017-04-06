@@ -9,7 +9,7 @@ author: rodrigomelgar
 
 Olá,
 
-Se você est lendo isso, sua empresa foi selecionada para participar da proposta de gateway accesstage. A seguir, descrevo uma série de pré-requisitos para trabalhar conosco :)
+Se você esta lendo isso, sua empresa foi selecionada para participar da proposta de gateway accesstage. A seguir, descrevo uma série de pré-requisitos para trabalhar conosco :)
 
 Estamos saindo de um mundo middleware proprietário e em migração para um mundo de micro-serviços.
 
@@ -25,7 +25,7 @@ Não faça um código só pra voce :( ! a ideia de clean code é bem simples um 
 
 ### MAVEN
 Os projetos devem ser Maven. Os projetos diretamente relacionados/dependentes deverão ser sub-módulos devidamente configurados com um projeto Parent. O projeto Parente deve usar Distribution Management para enviar os releases para o Nexus interno da Accesstage. Além disso, as versões de todas as dependências dos projetos devem ser gerenciadas pelo Parente através do Dependency Management, e jamais pelos sub-módulos. 
-Configurar também o projéto Maven para trabalhar com o Git através de SCM.
+Configurar também o projeto Maven para trabalhar com o Git através de SCM.
 
 ### Spring!!!
 Como optamos por utilizar o SpringCloud aqui, queremos times com uma ampla experiência em spring - falo sério aqui.
