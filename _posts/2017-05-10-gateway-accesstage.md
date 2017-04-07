@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Como fazer um gateway.
+title:  Como fazer um Gateway.
 date:   2017-04-04 20:07:00
 author: rodrigomelgar
 ---
