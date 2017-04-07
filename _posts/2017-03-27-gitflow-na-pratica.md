@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  GitFLow na Pratica
+title:  GitFLow na Prática
 date:   2017-03-27 18:52:00
 author: rodrigomelgar
 ---
-#foi um exemplo na pratica para o time
+#foi um exemplo na prática para o time
 
 desenho do workflow para git
 
