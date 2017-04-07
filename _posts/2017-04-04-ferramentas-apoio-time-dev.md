@@ -6,7 +6,7 @@ author: rodrigomelgar
 ---
 
 ### Git - Nexus - Jenkins
-Após o incio a estratégia da empresa de migrar do SVN para o Git, leia mais aqui no post do  [@leo](http://engenharia.accesstage.com.br/2017/03/15/do-svn-ao-git.html) conseguimos um servidor novinho em folha, com 4GB de RAM e 2 vcpu e instalamos o centOS nele.
+Após o incio a estratégia da empresa de migrar do SVN para o Git - leia mais aqui no post do  [@leo](http://engenharia.accesstage.com.br/2017/03/15/do-svn-ao-git.html) conseguimos um servidor novinho em folha, com 4GB de RAM e 2 vcpu e instalamos o centOS nele.
 
 
 ### Instalações
@@ -18,7 +18,7 @@ Após o incio a estratégia da empresa de migrar do SVN para o Git, leia mais aq
 
 * Nexus
 
-Mostraremos um how-to-do que permite que qualquer pessoa possa executar um. Consideramos interessante escrever esse material pois existe pouca coisa em portugues, e acreditamos que esse blog pode alcancar um público maior, deixando os posts em português.
+Mostraremos um how-to-do que permite que qualquer pessoa possa executar. Consideramos interessante escrever esse material pois existe pouca coisa em portugues, e acreditamos que esse blog pode alcancar um público maior dessa forma.
 
 ### GitLab-CE
 
@@ -73,7 +73,7 @@ sh nexus start
 ### Jenkins
 
 ```bash
-Estou utilizando o CentOS 7
+Estamos utilizando o CentOS 7
 
  yum install jenkins
  
