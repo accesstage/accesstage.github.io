@@ -11,10 +11,10 @@ Recentemente foi necessário configurar o envio de email para o [gitlab-ce](http
 
 
 ```bash
-Estou utilizando o CentOS 7
+Estamos utilizando o CentOS 7
 yum install postfix
 vim /etc/postfix/main.cf 
-altera a propriedade relayhost para o relay da sua empresa
+Alterar a propriedade relayhost para o relay da sua empresa
 relayhost = nomedorelay.suaempresa.com.br
 
 ```
