@@ -6,7 +6,7 @@ author: rodrigomelgar
 ---
 #Configurar Posfix
 
-Recentimente precisei configurar o envio de email para o [gitlab-ce](https://gitlab.com/gitlab-org/gitlab-ce) e para o [jira](https://www.atlassian.com/software/jira)  segue um tutorial da utulização de posfix.
+Recentemente foi necessário configurar o envio de email para o [gitlab-ce](https://gitlab.com/gitlab-org/gitlab-ce) e para o [jira](https://www.atlassian.com/software/jira). Segue um tutorial da utilização de posfix.
 
 
 
@@ -19,7 +19,7 @@ relayhost = nomedorelay.suaempresa.com.br
 
 ```
 
-## tambem pode usar um relay free se a sua empresa não tiver
+## Também pode ser usado um relay free se a sua empresa não tiver
 ```bash
 relayhost = [smtp.mandrillapp.com]
 smtp_sasl_auth_enable = yes
@@ -34,4 +34,4 @@ inet_interfaces = 127.0.0.1
 
 ![postfix](https://www.stewright.me/wp-content/uploads/2012/09/Postfix_logo.png)
 
-see you on the other side
+See you on the other side.
